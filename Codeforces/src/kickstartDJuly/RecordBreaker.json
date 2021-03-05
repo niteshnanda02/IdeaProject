@@ -1,0 +1,34 @@
+{
+  "name" : "RecordBreaker",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\n8\n1 2 0 7 2 0 2 0\n6\n4 8 15 16 23 42\n9\n3 1 4 1 5 9 2 6 5\n6\n9 9 9 9 9 9",
+    "output" : "",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/kickstartDJuly",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "kickstartDJuly.RecordBreaker",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.07.12",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

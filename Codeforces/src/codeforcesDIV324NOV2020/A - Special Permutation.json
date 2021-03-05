@@ -1,0 +1,31 @@
+{
+  "name" : "A - Special Permutation",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "2\n2\n5\n",
+    "output" : "",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/codeforcesDIV324NOV2020",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforcesDIV324NOV2020.TaskA",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.11.24",
+  "contestName" : "Codeforces Round #686 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

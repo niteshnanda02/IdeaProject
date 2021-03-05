@@ -1,0 +1,31 @@
+{
+  "name" : "B - Multiply by 2, divide by 6",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "7\n1\n2\n3\n12\n12345\n15116544\n387420489\n",
+    "output" : "0\n-1\n2\n-1\n-1\n12\n36\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/codeforces28July",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces28July.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.06.28",
+  "contestName" : "Codeforces Round #653 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

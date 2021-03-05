@@ -1,0 +1,31 @@
+{
+  "name" : "C - Knapsack",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "3\n1 3\n3\n6 2\n19 8 19 69 9 4\n7 12\n1 1 1 17 1 1 1\n",
+    "output" : "",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/codeforces15Nov2020",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces15Nov2020.TaskC",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.11.15",
+  "contestName" : "Codeforces Round #683 (Div. 2, by Meet IT)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

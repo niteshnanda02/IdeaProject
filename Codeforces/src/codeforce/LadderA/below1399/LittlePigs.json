@@ -1,0 +1,39 @@
+{
+  "name" : "LittlePigs",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2 3\nPPW\nW.P\n",
+    "output" : "2",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3 3\nP.W\n.P.\nW.P\n",
+    "output" : "0",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/codeforce/LadderA/below1399",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "codeforce.LadderA.below1399.LittlePigs",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.06.20",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

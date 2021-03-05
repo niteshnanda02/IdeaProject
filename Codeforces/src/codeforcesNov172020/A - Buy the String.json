@@ -1,0 +1,36 @@
+{
+  "name" : "A - Buy the String",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "6\n3 1 1 1\n100\n5 10 100 1\n01010\n5 10 1 1\n11111\n5 1 10 1\n11111\n12 2 1 10\n101110110101\n2 100 1 10\n00\n",
+    "output" : "3\n52\n5\n10\n16\n22\n",
+    "index" : 0,
+    "active" : false
+  }, {
+    "input" : "6\n1 1 1 1\na",
+    "output" : "",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/codeforcesNov172020",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforcesNov172020.TaskA",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.11.17",
+  "contestName" : "Codeforces Round #684 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

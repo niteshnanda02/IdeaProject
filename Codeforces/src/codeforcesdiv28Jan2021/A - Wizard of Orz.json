@@ -1,0 +1,36 @@
+{
+  "name" : "A - Wizard of Orz",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "2\n1\n2\n",
+    "output" : "9\n98\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2\n10\n20",
+    "output" : "",
+    "index" : 1,
+    "active" : false
+  } ],
+  "location" : "src/codeforcesdiv28Jan2021",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforcesdiv28Jan2021.TaskA",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2021.01.08",
+  "contestName" : "Codeforces Round #695 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

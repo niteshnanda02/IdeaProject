@@ -1,0 +1,41 @@
+{
+  "name" : "C - Bouncing Ball",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "3\n10 3 2\n0101010101\n2 2\n5 4 1\n00000\n2 10\n11 2 3\n10110011000\n4 3\n",
+    "output" : "2\n4\n10\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n11 2 3\n10110011000\n4 3\n",
+    "output" : "3",
+    "index" : 1,
+    "active" : false
+  }, {
+    "input" : "1\n3 1 1\n100\n11 2",
+    "output" : "15",
+    "index" : 2,
+    "active" : false
+  } ],
+  "location" : "src/codeforces29Nov2020",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces29Nov2020.TaskC",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.11.29",
+  "contestName" : "Technocup 2021 - Elimination Round 2",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

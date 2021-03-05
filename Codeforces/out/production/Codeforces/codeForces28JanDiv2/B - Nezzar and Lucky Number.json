@@ -1,0 +1,31 @@
+{
+  "name" : "B - Nezzar and Lucky Number",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "2\n3 7\n24 25 27\n10 7\n51 52 53 54 55 56 57 58 59 60\n",
+    "output" : "YES\nNO\nYES\nYES\nYES\nNO\nYES\nYES\nYES\nYES\nYES\nYES\nNO\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/codeForces28JanDiv2",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "codeForces28JanDiv2.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2021.01.28",
+  "contestName" : "Codeforces Round #698 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

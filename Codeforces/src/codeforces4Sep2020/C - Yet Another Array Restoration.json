@@ -1,0 +1,31 @@
+{
+  "name" : "C - Yet Another Array Restoration",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "5\n2 1 49\n5 20 50\n6 20 50\n5 3 8\n9 13 22\n",
+    "output" : "1 49 \n20 40 30 50 10\n26 32 20 38 44 50 \n8 23 18 13 3 \n1 10 13 4 19 22 25 16 7 ",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/codeforces4Sep2020",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces4Sep2020.TaskC",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.09.04",
+  "contestName" : "Codeforces Round #667 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

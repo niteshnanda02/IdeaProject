@@ -1,0 +1,31 @@
+{
+  "name" : "C - Move Brackets",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "4\n2\n)(\n4\n()()\n8\n())()()(\n10\n)))((((())\n",
+    "output" : "1\n0\n1\n3\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/codeforces28July",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces28July.TaskC",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.06.28",
+  "contestName" : "Codeforces Round #653 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

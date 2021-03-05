@@ -1,0 +1,36 @@
+{
+  "name" : "A - Distance and Axis",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "6\n4 0\n5 8\n0 1000000\n0 0\n1 0\n1000000 1000000\n",
+    "output" : "0\n3\n1000000\n0\n1\n0\n",
+    "index" : 0,
+    "active" : false
+  }, {
+    "input" : "3\n4 1\n6 5\n4 3",
+    "output" : "",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/codeforces21Aug",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces21Aug.TaskA",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.08.21",
+  "contestName" : "Codeforces Round #665 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

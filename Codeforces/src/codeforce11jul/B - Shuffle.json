@@ -1,0 +1,36 @@
+{
+  "name" : "B - Shuffle",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "3\n6 4 3\n1 6\n2 3\n5 5\n4 1 2\n2 4\n1 2\n3 3 2\n2 3\n1 2\n",
+    "output" : "6\n2\n3\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n3 3 2\n2 3\n1 2",
+    "output" : "3",
+    "index" : 1,
+    "active" : false
+  } ],
+  "location" : "src/codeforce11jul",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforce11jul.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.06.11",
+  "contestName" : "Educational Codeforces Round 89 (Rated for Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

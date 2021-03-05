@@ -1,0 +1,31 @@
+{
+  "name" : "F - Array Partition",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "6\n11\n1 2 3 3 3 4 4 3 4 2 1\n8\n2 9 1 7 3 9 4 1\n9\n2 1 4 2 4 3 3 1 2\n7\n4 2 1 1 4 1 4\n5\n1 1 1 1 1\n7\n4 3 4 3 3 3 4\n",
+    "output" : "",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/codeforcesDIV324NOV2020",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforcesDIV324NOV2020.TaskF",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.11.24",
+  "contestName" : "Codeforces Round #686 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

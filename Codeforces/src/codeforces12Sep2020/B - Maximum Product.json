@@ -1,0 +1,36 @@
+{
+  "name" : "B - Maximum Product",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "4\n5\n-1 -2 -3 -4 -5\n6\n-1 -2 -3 1 2 -1\n6\n-1 0 0 0 -1 -1\n6\n-9 -7 -5 -3 -2 1\n",
+    "output" : "-120\n12\n0\n945\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n6\n-9 -7 -5 -3 -2 1",
+    "output" : "945\n",
+    "index" : 1,
+    "active" : false
+  } ],
+  "location" : "src/codeforces12Sep2020",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces12Sep2020.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.09.12",
+  "contestName" : "Codeforces Round #670 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

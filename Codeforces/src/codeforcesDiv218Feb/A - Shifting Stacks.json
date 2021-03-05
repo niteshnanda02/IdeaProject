@@ -1,0 +1,36 @@
+{
+  "name" : "A - Shifting Stacks",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "6\n2\n1 2\n2\n1 0\n3\n4 4 4\n2\n0 0\n3\n0 1 0\n4\n1000000000 1000000000 1000000000 1000000000\n",
+    "output" : "YES\nYES\nYES\nNO\nNO\nYES\n",
+    "index" : 0,
+    "active" : false
+  }, {
+    "input" : "1\n3\n0 1 0",
+    "output" : "",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/codeforcesDiv218Feb",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforcesDiv218Feb.TaskA",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2021.02.18",
+  "contestName" : "Codeforces Round #703 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

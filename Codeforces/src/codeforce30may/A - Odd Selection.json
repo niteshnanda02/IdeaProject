@@ -1,0 +1,36 @@
+{
+  "name" : "A - Odd Selection",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "5\n1 1\n999\n1 1\n1000\n2 1\n51 50\n2 2\n51 50\n3 3\n101 102 103\n",
+    "output" : "Yes\nNo\nYes\nYes\nNo\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n2 2\n51 50",
+    "output" : "No",
+    "index" : 1,
+    "active" : false
+  } ],
+  "location" : "src/codeforce30may",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforce30may.TaskA",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.05.31",
+  "contestName" : "Codeforces Round #646 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

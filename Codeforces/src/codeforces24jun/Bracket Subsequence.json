@@ -1,0 +1,39 @@
+{
+  "name" : "Bracket Subsequence",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "6 4\n()(())\n",
+    "output" : "",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "8 8\n(()(()))\n",
+    "output" : "(()(()))\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/codeforces24jun",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces24jun.BracketSubsequence",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.06.24",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

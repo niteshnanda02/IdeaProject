@@ -1,0 +1,49 @@
+{
+  "name" : "RomaAndChangingSigns",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 2\n-1 -1 1\n",
+    "output" : "3\n",
+    "index" : 0,
+    "active" : false
+  }, {
+    "input" : "3 1\n-1 -1 1\n",
+    "output" : "1",
+    "index" : 1,
+    "active" : false
+  }, {
+    "input" : "5 4\n-1 -2 -3 1 2 ",
+    "output" : "7",
+    "index" : 2,
+    "active" : false
+  }, {
+    "input" : "17 27\n257 320 676 1136 2068 2505 2639 4225 4951 5786 7677 7697 7851 8337 8429 8469 9343",
+    "output" : "81852",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/codeforce/LadderA/below1399",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "codeforce.LadderA.below1399.RomaAndChangingSigns",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.06.23",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

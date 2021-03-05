@@ -1,0 +1,31 @@
+{
+  "name" : "A - Digit Game",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "4\n1\n2\n1\n3\n3\n102\n4\n2069\n",
+    "output" : "2\n1\n1\n2\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/codeforces19sep2020",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces19sep2020.TaskA",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.09.19",
+  "contestName" : "Codeforces Round #671 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

@@ -1,0 +1,41 @@
+{
+  "name" : "B - AccurateLee",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "5\n10\n0001111111\n4\n0101\n8\n11001101\n10\n1110000000\n1\n1\n",
+    "output" : "",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n4\n0101",
+    "output" : "",
+    "index" : 1,
+    "active" : false
+  }, {
+    "input" : "1\n8\n11001101",
+    "output" : "",
+    "index" : 2,
+    "active" : false
+  } ],
+  "location" : "src/Codeforces23Jun",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "Codeforces23Jun.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.07.09",
+  "contestName" : "Codeforces Round #652 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

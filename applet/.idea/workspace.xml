@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="edd7a1ac-03f0-4606-bf09-3146ffac0222" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UR76Bf8c8XFf4jnFgfJfZapNU8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager" selected="Application.simpleapplet">
+    <configuration name="Bufferead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.file.Bufferead" />
+      <module name="applet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.file.DirList" />
+      <module name="applet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="applet" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fileinputread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.file.fileinputread" />
+      <module name="applet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="simpleapplet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.simpleapplet" />
+      <module name="applet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.simpleapplet" />
+        <item itemvalue="Application.fileinputread" />
+        <item itemvalue="Application.Bufferead" />
+        <item itemvalue="Application.DirList" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edd7a1ac-03f0-4606-bf09-3146ffac0222" name="Default Changelist" comment="" />
+      <created>1575307376396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575307376396</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="776" y="311" width="424" height="484" key="FileChooserDialogImpl" timestamp="1578046670414">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="311" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1578046670414" />
+    <state width="1354" height="260" key="GridCell.Tab.0.bottom" timestamp="1576419883470">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1354" height="260" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576419883470" />
+    <state width="1354" height="260" key="GridCell.Tab.0.center" timestamp="1576419883470">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1354" height="260" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576419883470" />
+    <state width="1354" height="260" key="GridCell.Tab.0.left" timestamp="1576419883469">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1354" height="260" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576419883469" />
+    <state width="1354" height="260" key="GridCell.Tab.0.right" timestamp="1576419883470">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1354" height="260" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576419883470" />
+    <state width="1354" height="321" key="GridCell.Tab.1.bottom" timestamp="1576417243443">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1354" height="321" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576417243443" />
+    <state width="1354" height="321" key="GridCell.Tab.1.center" timestamp="1576417243442">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1354" height="321" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576417243442" />
+    <state width="1354" height="321" key="GridCell.Tab.1.left" timestamp="1576417243442">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1354" height="321" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576417243442" />
+    <state width="1354" height="321" key="GridCell.Tab.1.right" timestamp="1576417243443">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1354" height="321" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576417243443" />
+    <state x="482" y="175" key="SettingsEditor" timestamp="1576414902905">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="482" y="175" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1576414902905" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1578412123705">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578412123705" />
+    <state x="251" y="144" width="1474" height="817" key="new project wizard" timestamp="1578046695822">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="251" y="144" width="1474" height="817" key="new project wizard/67.27.1853.1053@67.27.1853.1053" timestamp="1578046695822" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/company/file/Bufferead.java</url>
+          <line>7</line>
+          <properties class="com.company.file.Bufferead" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

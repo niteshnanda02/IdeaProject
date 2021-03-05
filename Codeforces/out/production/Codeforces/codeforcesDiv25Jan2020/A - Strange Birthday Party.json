@@ -1,0 +1,31 @@
+{
+  "name" : "A - Strange Birthday Party",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "2\n3 3\n3 6 9\n3 3\n6 4 11\n",
+    "output" : "6 6\n7 8\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/codeforcesDiv25Jan2020",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforcesDiv25Jan2020.TaskA",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2021.01.05",
+  "contestName" : "Codeforces Round #694 (Div. 1)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

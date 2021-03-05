@@ -1,0 +1,31 @@
+{
+  "name" : "B - Jumps",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "5\n1\n2\n3\n4\n5\n",
+    "output" : "1\n3\n2\n3\n4\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/codeforces30NOV2020",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces30NOV2020.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.11.30",
+  "contestName" : "Educational Codeforces Round 99 (Rated for Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

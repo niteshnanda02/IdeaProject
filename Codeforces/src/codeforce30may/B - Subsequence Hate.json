@@ -1,0 +1,36 @@
+{
+  "name" : "B - Subsequence Hate",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "7\n001\n100\n101\n010\n0\n1\n001100\n",
+    "output" : "0\n0\n1\n1\n0\n0\n2\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n001100\n",
+    "output" : "2",
+    "index" : 1,
+    "active" : false
+  } ],
+  "location" : "src/codeforce30may",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforce30may.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.05.31",
+  "contestName" : "Codeforces Round #646 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

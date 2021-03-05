@@ -1,0 +1,31 @@
+{
+  "name" : "A - Shovels and Swords",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "6\n4 4\n1000000000 0\n7 15\n8 7\n6 5\n10 1",
+    "output" : "2\n0\n7\n5\n3\n1",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/codeforce11jul",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforce11jul.TaskA",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.06.11",
+  "contestName" : "Educational Codeforces Round 89 (Rated for Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

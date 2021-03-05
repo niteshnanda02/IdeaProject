@@ -1,0 +1,36 @@
+{
+  "name" : "A - Subset Mex",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "4\n6\n0 2 1 5 0 1\n3\n0 1 2\n4\n0 2 0 1\n6\n1 2 3 4 5 6\n",
+    "output" : "5\n3\n4\n0\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n13\n1 4 0 2 2 1 3 3 2 1 3 0 0",
+    "output" : "",
+    "index" : 1,
+    "active" : false
+  } ],
+  "location" : "src/codeforces12Sep2020",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces12Sep2020.TaskA",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.09.12",
+  "contestName" : "Codeforces Round #670 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

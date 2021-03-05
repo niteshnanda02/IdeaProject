@@ -1,0 +1,31 @@
+{
+  "name" : "A - FashionabLee",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "4\n3\n4\n12\n1000000000\n",
+    "output" : "NO\nYES\nYES\nYES\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/Codeforces23Jun",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "Codeforces23Jun.TaskA",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.07.09",
+  "contestName" : "Codeforces Round #652 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

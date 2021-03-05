@@ -1,0 +1,34 @@
+{
+  "name" : "TaskA",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n2\nYY\nYY\n2\nNY\nYY\n2\nNN\nYY\n5\nYNNYY\nYYYNY\n10\nNYYYNNYYYY\nYYNYYNYYNY\n",
+    "output" : "Case #1: \nYY\nYY\nCase #2: \nYY\nNY\nCase #3: \nYN\nNY\nCase #4: \nYNNNN\nYYNNN\nNNYYN\nNNNYN\nNNNYY\nCase #5: \nYYYNNNNNNN\nNYYNNNNNNN\nNNYNNNNNNN\nNNYYNNNNNN\nNNYYYNNNNN\nNNNNNYNNNN\nNNNNNNYYYN\nNNNNNNYYYN\nNNNNNNNNYN\nNNNNNNNNYY\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/hackercup",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "hackercup.TaskA",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.07.26",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

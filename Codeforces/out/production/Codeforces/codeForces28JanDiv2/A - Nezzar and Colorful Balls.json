@@ -1,0 +1,36 @@
+{
+  "name" : "A - Nezzar and Colorful Balls",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "5\n6\n1 1 1 2 3 4\n5\n1 1 2 2 3\n4\n2 2 2 2\n3\n1 2 3\n1\n1\n",
+    "output" : "3\n2\n4\n1\n1\n",
+    "index" : 0,
+    "active" : false
+  }, {
+    "input" : "1\n1\n1",
+    "output" : "",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/codeForces28JanDiv2",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "codeForces28JanDiv2.TaskA",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2021.01.28",
+  "contestName" : "Codeforces Round #698 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

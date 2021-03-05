@@ -1,0 +1,31 @@
+{
+  "name" : "B - Strange Definition",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "2\n1 2\n12\n4 2\n4 6 8 2\n",
+    "output" : "36\n44\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/codeforcesDiv25Jan2020",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforcesDiv25Jan2020.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2021.01.05",
+  "contestName" : "Codeforces Round #694 (Div. 1)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

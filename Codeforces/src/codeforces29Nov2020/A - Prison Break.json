@@ -1,0 +1,31 @@
+{
+  "name" : "A - Prison Break",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "3\n10 10 1 1\n3 5 2 4\n10 2 5 1\n",
+    "output" : "18\n4\n6\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/codeforces29Nov2020",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces29Nov2020.TaskA",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.11.29",
+  "contestName" : "Technocup 2021 - Elimination Round 2",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

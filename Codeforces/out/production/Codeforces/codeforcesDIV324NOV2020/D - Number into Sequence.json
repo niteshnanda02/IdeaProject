@@ -1,0 +1,36 @@
+{
+  "name" : "D - Number into Sequence",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "4\n2\n360\n4999999937\n4998207083\n",
+    "output" : "1\n2 \n3\n2 2 90 \n1\n4999999937 \n1\n4998207083 \n",
+    "index" : 0,
+    "active" : false
+  }, {
+    "input" : "1\n98",
+    "output" : "",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/codeforcesDIV324NOV2020",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforcesDIV324NOV2020.TaskD",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.11.24",
+  "contestName" : "Codeforces Round #686 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

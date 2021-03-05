@@ -1,0 +1,49 @@
+{
+  "name" : "FindMarble",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4 2 1\n2 3 4 1\n",
+    "output" : "3",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4 3 3\n4 1 3 2\n",
+    "output" : "0",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "4 3 4\n1 2 3 4\n",
+    "output" : "-1",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "3 1 3\n2 1 3\n",
+    "output" : "-1",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/codeforce/LadderA/below1399",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "codeforce.LadderA.below1399.FindMarble",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.06.23",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

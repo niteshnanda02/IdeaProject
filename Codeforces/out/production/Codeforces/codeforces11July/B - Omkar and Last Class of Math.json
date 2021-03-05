@@ -1,0 +1,41 @@
+{
+  "name" : "B - Omkar and Last Class of Math",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "3\n4\n6\n9\n",
+    "output" : "2 2\n3 3\n3 6\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n23",
+    "output" : "",
+    "index" : 1,
+    "active" : false
+  }, {
+    "input" : "1\n15",
+    "output" : "",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/codeforces11July",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces11July.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.07.11",
+  "contestName" : "Codeforces Round #655 (Div. 2)",
+  "truncate" : false,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

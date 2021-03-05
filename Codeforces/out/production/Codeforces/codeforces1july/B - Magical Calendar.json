@@ -1,0 +1,31 @@
+{
+  "name" : "B - Magical Calendar",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "5\n3 4\n3 2\n3 1\n13 7\n1010000 9999999\n",
+    "output" : "4\n3\n1\n28\n510049495001\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/codeforces1july",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces1july.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.07.01",
+  "contestName" : "Codeforces Round #654 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

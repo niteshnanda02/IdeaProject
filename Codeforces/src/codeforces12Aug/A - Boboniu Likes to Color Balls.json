@@ -1,0 +1,36 @@
+{
+  "name" : "A - Boboniu Likes to Color Balls",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD"
+  },
+  "output" : {
+    "type" : "STANDARD"
+  },
+  "tests" : [ {
+    "input" : "4\n0 1 1 1\n8 1 9 3\n0 0 0 0\n1000000000 1000000000 1000000000 1000000000\n",
+    "output" : "",
+    "index" : 0,
+    "active" : false
+  }, {
+    "input" : "3\n5 5 5 5\n4 2 8 9\n4 3 0 5",
+    "output" : "",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/codeforces12Aug",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces12Aug.TaskA",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.08.12",
+  "contestName" : "Codeforces Round #664 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

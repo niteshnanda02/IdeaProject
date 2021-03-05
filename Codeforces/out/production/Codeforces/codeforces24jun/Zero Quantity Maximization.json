@@ -1,0 +1,49 @@
+{
+  "name" : "Zero Quantity Maximization",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n1 2 3 4 5\n2 4 7 11 3\n",
+    "output" : "2",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3\n13 37 39\n1 2 3\n",
+    "output" : "2\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "4\n0 0 0 0\n1 2 3 4\n",
+    "output" : "0",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "3\n1 2 -1\n-6 -12 6\n",
+    "output" : "3",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/codeforces24jun",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces24jun.ZeroQuantityMaximization",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.06.24",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

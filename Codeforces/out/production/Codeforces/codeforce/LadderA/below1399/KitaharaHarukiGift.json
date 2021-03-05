@@ -1,0 +1,44 @@
+{
+  "name" : "KitaharaHarukiGift",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n100 200 100",
+    "output" : "YES",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4\n100 100 100 200",
+    "output" : "NO\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "52\n200 200 100 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 100 200 200 200 200 200 200 200 200 200 200 200 200 200 200 100 200 200 200 200 100 200 100 200 200 200 100 200 200",
+    "output" : "YES",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/codeforce/LadderA/below1399",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "codeforce.LadderA.below1399.KitaharaHarukiGift",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.06.19",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
